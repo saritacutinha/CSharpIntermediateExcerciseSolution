@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopWatchSimulator", "StopWatchSimulator.csproj", "{88991D10-037B-4ADC-83AD-5479E40DC804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOverflowPost", "..\StackOverflowPost\StackOverflowPost.csproj", "{B975BCC3-70EB-405F-9EFF-CF16E7C7B545}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88991D10-037B-4ADC-83AD-5479E40DC804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88991D10-037B-4ADC-83AD-5479E40DC804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88991D10-037B-4ADC-83AD-5479E40DC804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88991D10-037B-4ADC-83AD-5479E40DC804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B975BCC3-70EB-405F-9EFF-CF16E7C7B545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B975BCC3-70EB-405F-9EFF-CF16E7C7B545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B975BCC3-70EB-405F-9EFF-CF16E7C7B545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B975BCC3-70EB-405F-9EFF-CF16E7C7B545}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4BB2267-FA38-4F72-84C4-C73FA5EBE532}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+C:\Users\sarit\source\repos\StopWatchSimulator\bin\Debug\netcoreapp3.1\StopWatchSimulator.exe
+C:\Users\sarit\source\repos\StopWatchSimulator\bin\Debug\netcoreapp3.1\StopWatchSimulator.deps.json
+C:\Users\sarit\source\repos\StopWatchSimulator\bin\Debug\netcoreapp3.1\StopWatchSimulator.runtimeconfig.json
+C:\Users\sarit\source\repos\StopWatchSimulator\bin\Debug\netcoreapp3.1\StopWatchSimulator.runtimeconfig.dev.json
+C:\Users\sarit\source\repos\StopWatchSimulator\bin\Debug\netcoreapp3.1\StopWatchSimulator.dll
+C:\Users\sarit\source\repos\StopWatchSimulator\bin\Debug\netcoreapp3.1\StopWatchSimulator.pdb
+C:\Users\sarit\source\repos\StopWatchSimulator\obj\Debug\netcoreapp3.1\StopWatchSimulator.csprojAssemblyReference.cache
+C:\Users\sarit\source\repos\StopWatchSimulator\obj\Debug\netcoreapp3.1\StopWatchSimulator.AssemblyInfoInputs.cache
+C:\Users\sarit\source\repos\StopWatchSimulator\obj\Debug\netcoreapp3.1\StopWatchSimulator.AssemblyInfo.cs
+C:\Users\sarit\source\repos\StopWatchSimulator\obj\Debug\netcoreapp3.1\StopWatchSimulator.csproj.CoreCompileInputs.cache
+C:\Users\sarit\source\repos\StopWatchSimulator\obj\Debug\netcoreapp3.1\StopWatchSimulator.dll
+C:\Users\sarit\source\repos\StopWatchSimulator\obj\Debug\netcoreapp3.1\StopWatchSimulator.pdb
+C:\Users\sarit\source\repos\StopWatchSimulator\obj\Debug\netcoreapp3.1\StopWatchSimulator.genruntimeconfig.cache
