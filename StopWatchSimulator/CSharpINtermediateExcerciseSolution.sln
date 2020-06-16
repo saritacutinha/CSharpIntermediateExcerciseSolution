@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopWatchSimulator", "StopWatchSimulator.csproj", "{88991D10-037B-4ADC-83AD-5479E40DC804}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StopWatchSimulator", "StopWatchSimulator.csproj", "{88991D10-037B-4ADC-83AD-5479E40DC804}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOverflowPost", "..\StackOverflowPost\StackOverflowPost.csproj", "{B975BCC3-70EB-405F-9EFF-CF16E7C7B545}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackOverflowPost", "..\StackOverflowPost\StackOverflowPost.csproj", "{B975BCC3-70EB-405F-9EFF-CF16E7C7B545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "..\Stack\Stack.csproj", "{DCCB726F-06A8-4A24-86FE-F108FC986B61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B975BCC3-70EB-405F-9EFF-CF16E7C7B545}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B975BCC3-70EB-405F-9EFF-CF16E7C7B545}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B975BCC3-70EB-405F-9EFF-CF16E7C7B545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCCB726F-06A8-4A24-86FE-F108FC986B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCCB726F-06A8-4A24-86FE-F108FC986B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCCB726F-06A8-4A24-86FE-F108FC986B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCCB726F-06A8-4A24-86FE-F108FC986B61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
