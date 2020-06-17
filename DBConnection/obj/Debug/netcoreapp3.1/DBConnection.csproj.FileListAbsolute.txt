@@ -1,0 +1,13 @@
+C:\Users\sarit\source\repos\CSharpIntermediateExcerciseSolution\DBConnection\bin\Debug\netcoreapp3.1\DBConnection.exe
+C:\Users\sarit\source\repos\CSharpIntermediateExcerciseSolution\DBConnection\bin\Debug\netcoreapp3.1\DBConnection.deps.json
+C:\Users\sarit\source\repos\CSharpIntermediateExcerciseSolution\DBConnection\bin\Debug\netcoreapp3.1\DBConnection.runtimeconfig.json
+C:\Users\sarit\source\repos\CSharpIntermediateExcerciseSolution\DBConnection\bin\Debug\netcoreapp3.1\DBConnection.runtimeconfig.dev.json
+C:\Users\sarit\source\repos\CSharpIntermediateExcerciseSolution\DBConnection\bin\Debug\netcoreapp3.1\DBConnection.dll
+C:\Users\sarit\source\repos\CSharpIntermediateExcerciseSolution\DBConnection\bin\Debug\netcoreapp3.1\DBConnection.pdb
+C:\Users\sarit\source\repos\CSharpIntermediateExcerciseSolution\DBConnection\obj\Debug\netcoreapp3.1\DBConnection.csprojAssemblyReference.cache
+C:\Users\sarit\source\repos\CSharpIntermediateExcerciseSolution\DBConnection\obj\Debug\netcoreapp3.1\DBConnection.AssemblyInfoInputs.cache
+C:\Users\sarit\source\repos\CSharpIntermediateExcerciseSolution\DBConnection\obj\Debug\netcoreapp3.1\DBConnection.AssemblyInfo.cs
+C:\Users\sarit\source\repos\CSharpIntermediateExcerciseSolution\DBConnection\obj\Debug\netcoreapp3.1\DBConnection.csproj.CoreCompileInputs.cache
+C:\Users\sarit\source\repos\CSharpIntermediateExcerciseSolution\DBConnection\obj\Debug\netcoreapp3.1\DBConnection.dll
+C:\Users\sarit\source\repos\CSharpIntermediateExcerciseSolution\DBConnection\obj\Debug\netcoreapp3.1\DBConnection.pdb
+C:\Users\sarit\source\repos\CSharpIntermediateExcerciseSolution\DBConnection\obj\Debug\netcoreapp3.1\DBConnection.genruntimeconfig.cache
