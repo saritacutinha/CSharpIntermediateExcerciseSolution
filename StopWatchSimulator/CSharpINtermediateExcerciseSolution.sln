@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackOverflowPost", "..\Sta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "..\Stack\Stack.csproj", "{DCCB726F-06A8-4A24-86FE-F108FC986B61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConnection", "..\DBConnection\DBConnection.csproj", "{4D08B21D-6EDE-46C9-AB0D-E7C87AE9D643}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DCCB726F-06A8-4A24-86FE-F108FC986B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCCB726F-06A8-4A24-86FE-F108FC986B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCCB726F-06A8-4A24-86FE-F108FC986B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D08B21D-6EDE-46C9-AB0D-E7C87AE9D643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D08B21D-6EDE-46C9-AB0D-E7C87AE9D643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D08B21D-6EDE-46C9-AB0D-E7C87AE9D643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D08B21D-6EDE-46C9-AB0D-E7C87AE9D643}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
