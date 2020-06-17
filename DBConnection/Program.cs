@@ -8,14 +8,12 @@ namespace DBConnection
         {
             Console.WriteLine("Opening Connections");
             DBConnection sql = new SQLConnection("sqlConnection");
-            sql.OpenConnection();
+            DBCommand sqlCmd = new DBCommand(sql, "select * from db;");
+            sqlCmd.Execute();
 
-
-            OracleConnection oracle = new OracleConnection("oracleSqlConnection");
-            oracle.OpenConnection();
-            oracle.CloseConnection();
-
-            sql.CloseConnection();
+            DBConnection oraclesql = new OracleConnection("oraclesqlConnection");
+            DBCommand oracleCmd = new DBCommand(oraclesql, "select * from db;");
+            oracleCmd.Execute();
         }
     }
 }
