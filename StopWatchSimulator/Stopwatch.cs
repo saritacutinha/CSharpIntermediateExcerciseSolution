@@ -10,20 +10,17 @@ namespace StopWatchSimulator
 
         public void Start()
         {
-            if(_isRunning)
-            {
+            if(_isRunning)            
                 throw new InvalidOperationException("Cannot start: The stopwatch is already running");
-            }
-
+            
             _isRunning = true;
             _startTime = DateTime.Now;
 
         }
-           
-       
+               
 
         public void Stop()
-        {
+        { 
             if (!_isRunning)
                 throw new InvalidOperationException("Cannot stop: The stopwatch is already stopped");
             

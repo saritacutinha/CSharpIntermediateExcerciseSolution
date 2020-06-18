@@ -5,33 +5,26 @@ namespace Stack
 {
     public class Stack
     {
-        private List<object> stackList = new List<object>();
+        List<object> stackList = new List<object>();
         public void Push(object obj)
         {
 
-            if (obj != null)
-            {
-                stackList.Add(obj);
-                Console.WriteLine("Added :{0}", obj);
-            }
-            else
-                throw new InvalidOperationException("Object cannot be added");
-
+            if (obj == null)           
+                throw new InvalidOperationException("Object cannot be added"); 
+            
+            stackList.Add(obj);
+            Console.WriteLine("Added :{0}", obj);
         }
 
         public object Pop()
         {
-            if (stackList.Count != 0)
-            {
-
-                var pop = stackList[stackList.Count - 1];
-                stackList.Remove(stackList[stackList.Count - 1]);
-                return pop;
-
-            }
-           else
+            if (stackList.Count == 0)
                 throw new InvalidOperationException("Object cannot be removed");
-        }
+
+            var pop = stackList[stackList.Count - 1];
+            stackList.Remove(stackList[stackList.Count - 1]);
+            return pop;
+        }                
 
         public void Clear()
         {
