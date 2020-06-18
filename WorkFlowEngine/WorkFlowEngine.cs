@@ -4,25 +4,17 @@ namespace WorkFlowEngine
 {
     public class WorkFlowEngine
     {
-        private readonly IList<IActivity> _activities;
-
-        public WorkFlowEngine()
+       
+        public void Run(IWorkFlow workFlow)
         {
-            _activities = new List<IActivity>();
-        }
-        public void Run()
-        {
-            System.Console.WriteLine("Workflow Engine Start");
-            foreach(var activity in _activities)
+            System.Console.WriteLine("Running Tasks in the List");
+            foreach(IActivity activity in workFlow.GetActivity())
             {
                 activity.Execute();
             }
-            System.Console.WriteLine("WorkFlow engine Stop");
+            System.Console.WriteLine("Sucessfully executed task list");
         }
 
-        public void RegisterWorkFlow(IActivity activity)
-        {
-            _activities.Add(activity);
-        }
+        
     }
 }

@@ -1,18 +1,26 @@
 ﻿using System;
+using System.Collections;
 
 namespace WorkFlowEngine
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Workflow Engine");
-            WorkFlowEngine workflow = new WorkFlowEngine();
-            workflow.RegisterWorkFlow(new ReadDataActivity());
-            workflow.RegisterWorkFlow(new AnalyseDataActivity());
-            workflow.RegisterWorkFlow(new WriteDataActivity());
+            Console.WriteLine("Adding Workflow");
+            WorkFlow workFlow = new WorkFlow();
+            workFlow.AddActivity(new ReadDataActivity());
+            workFlow.AddActivity(new AnalyseDataActivity());
+            workFlow.AddActivity(new WriteDataActivity());
+            Console.WriteLine("Activities are successfully added to the workflow");
 
-            workflow.Run();
-        }
+            Console.WriteLine("Running Workflow");
+            WorkFlowEngine workFlowEngine = new WorkFlowEngine();
+            workFlowEngine.Run(workFlow);
+
+            Console.WriteLine("Removing Write Data Activity");
+            workFlow.RemoveActivity(new WriteDataActivity());       
+          
+         }
     }
 }
